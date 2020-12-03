@@ -1,0 +1,106 @@
+body{
+	background-image: url("71770071_565306464211753_7259472316336177152_n.jpg");
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	background-size:cover;
+}
+@font-face{
+	src:url(UTM-Bitsumishi-Pro.ttf);
+	font-family: UTM-Bitsumishi-Pro
+}
+#box{
+	float:right;
+	width:600px;
+	height: 600px;
+	margin: 50px 40px 0px 0px;
+}
+
+#box #top{
+	background-color:#e17c26;
+	width: 600px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+	
+}
+#box #middle{
+	background-color: rgba(255,255,255,0.5);
+	width: 600px;
+	height: 580px;
+	clear: left;
+}
+#box #middle #left{
+	width: 350px;
+	height: 580px;
+	text-align: center;
+	position: absolute;
+	border-width: 8px;
+}
+#box #middle #left #inleft{
+	background-color: transparent;
+	width: 350px;
+	height: 500px;
+	padding-top: 0px;
+	margin-top: 30px;
+	border-right: solid;
+	border-width: 0px 8px 0px 0px;
+	border-right-color: #e17c26;
+}
+#box #middle #right{
+	width: 250px;
+	height: 580px;
+	text-align: center;
+	border-width: 8px;
+	float: right;
+	text-align: center;
+}
+#middle .font{
+	font-family: UTM-Bitsumishi-Pro;
+	opacity: 1;
+}
+#box #middle #left h2{
+	color:white;
+	width: 70px;
+	height: auto;
+	margin-left: 225px;
+	background-color: #e17c26;
+	opacity: 1;
+
+}
+#box #middle #left h3{
+	padding-top: 50px;
+	margin-top: 20px;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+  border-style: solid;
+  border-color: #3B5998;
+}
+.google {
+	border: solid;
+	border-top-color: red;
+  	color: red;
+  	background-color: white;
+}
+.btn {
+  width: 220px;
+  padding: 10px;
+  margin: 10px 0px 10px 5px;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+#box #middle #right h3{
+	padding-top: 50px;
+	margin-top: 29px;
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
